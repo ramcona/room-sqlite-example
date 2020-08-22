@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".EditProdukActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_edt_nama"
+        android:inputType="text"
+        android:singleLine="true"
+        android:hint="Nama Produk"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_edt_harga"
+        android:inputType="number"
+        android:singleLine="true"
+        android:hint="Harga Produk"/>
+
+    <Button
+        android:id="@+id/edit_btn_simpan"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perbarui"/>
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#EF3131"
+        android:id="@+id/edit_btn_hapus"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"/>
+    
+</LinearLayout>
